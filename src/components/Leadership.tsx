@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Users, Bot } from 'lucide-react'
+import { Users } from 'lucide-react'
 
 const LEADERSHIP = [
   {
@@ -8,13 +8,6 @@ const LEADERSHIP = [
     period: 'March 2018 – Present',
     location: 'Cincinnati, OH',
     icon: Users,
-  },
-  {
-    org: 'AI Club',
-    role: 'Member',
-    period: 'January 2024 – Present',
-    location: 'Columbus, OH',
-    icon: Bot,
   },
 ]
 

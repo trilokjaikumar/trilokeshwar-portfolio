@@ -52,9 +52,8 @@ export default function About() {
               I love turning complex problems into clean, scalable solutions.
             </p>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-              Currently working as a{' '}
-              <span className="text-cyan-400 font-medium">Data Analytics Apprentice</span> at Beats
-              By Dre.
+              Currently building{' '}
+              <span className="text-cyan-400 font-medium">FlowMeet</span> — an AI platform that automates meeting intelligence and calendar workflows.
             </p>
           </motion.div>
         </div>

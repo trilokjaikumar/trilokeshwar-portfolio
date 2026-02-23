@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 
 const SKILL_GROUPS = [
   {
@@ -34,17 +34,17 @@ const COLOR = {
   indigo: { pill: 'border-indigo-400/20 bg-indigo-400/5 text-indigo-300', dot: 'bg-indigo-400' },
 } as const
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.08 } },
 }
 
-const pillVariants = {
+const pillVariants: Variants = {
   hidden: { opacity: 0, scale: 0.88, y: 10 },
   visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.35 } },
 }
 
-const groupVariants = {
+const groupVariants: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,

@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 import { GraduationCap } from 'lucide-react'
 
 const COURSES = [
@@ -12,7 +12,7 @@ const COURSES = [
   'Microcontrollers',
 ]
 
-const pillVariants = {
+const pillVariants: Variants = {
   hidden: { opacity: 0, scale: 0.88, y: 10 },
   visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.35 } },
 }

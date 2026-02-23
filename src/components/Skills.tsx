@@ -41,7 +41,7 @@ const containerVariants = {
 
 const pillVariants = {
   hidden: { opacity: 0, scale: 0.88, y: 10 },
-  visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.35, ease: 'easeOut' } },
+  visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.35 } },
 }
 
 const groupVariants = {
@@ -49,7 +49,7 @@ const groupVariants = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.12, duration: 0.55, ease: 'easeOut' },
+    transition: { delay: i * 0.12, duration: 0.55 },
   }),
 }
 

@@ -14,7 +14,7 @@ const COURSES = [
 
 const pillVariants = {
   hidden: { opacity: 0, scale: 0.88, y: 10 },
-  visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.35, ease: 'easeOut' } },
+  visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.35 } },
 }
 
 export default function Education() {

@@ -79,7 +79,7 @@ export default function Hero() {
         <span className="text-[11px] tracking-widest uppercase">scroll</span>
         <motion.div
           animate={{ y: [0, 6, 0] }}
-          transition={{ repeat: Infinity, duration: 1.6, ease: 'easeInOut' }}
+          transition={{ repeat: Infinity, duration: 1.6 }}
         >
           <ArrowDown size={16} />
         </motion.div>

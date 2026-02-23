@@ -68,7 +68,7 @@ export default function Contact() {
                 rel={href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
                 variants={{
                   hidden: { opacity: 0, x: -16 },
-                  visible: { opacity: 1, x: 0, transition: { duration: 0.45, ease: 'easeOut' } },
+                  visible: { opacity: 1, x: 0, transition: { duration: 0.45 } },
                 }}
                 className="group flex items-center gap-4 p-4 rounded-xl border border-white/8 bg-white/[0.03] hover:border-cyan-400/30 hover:bg-white/[0.06] transition-all duration-200"
               >

@@ -40,7 +40,7 @@ export default function Education() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-60px' }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
+          transition={{ duration: 0.6 }}
           className="rounded-2xl border border-white/8 bg-white/[0.03] p-7 max-w-2xl hover:border-cyan-400/25 hover:bg-white/[0.05] transition-all duration-300"
         >
           {/* Header */}

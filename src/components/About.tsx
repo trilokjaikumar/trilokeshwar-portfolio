@@ -25,7 +25,7 @@ export default function About() {
             initial={{ opacity: 0, scale: 0.85 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6, ease: 'easeOut' }}
+            transition={{ duration: 0.6 }}
             className="shrink-0"
           >
             <div className="w-40 h-40 rounded-full bg-gradient-to-br from-cyan-400/20 to-sky-500/10 border-2 border-cyan-400/25 flex items-center justify-center">
@@ -40,7 +40,7 @@ export default function About() {
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6, delay: 0.15, ease: 'easeOut' }}
+            transition={{ duration: 0.6, delay: 0.15 }}
             className="flex flex-col gap-5 max-w-2xl"
           >
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">

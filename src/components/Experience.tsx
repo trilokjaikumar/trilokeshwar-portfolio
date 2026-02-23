@@ -61,7 +61,7 @@ export default function Experience() {
                 initial={{ opacity: 0, x: -24 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: i * 0.15, ease: 'easeOut' }}
+                transition={{ duration: 0.55, delay: i * 0.15 }}
                 className="relative pl-10"
               >
                 {/* Dot */}
